@@ -183,7 +183,7 @@
 				<label for="about">{'About:'|@translate}</label>
 			</div>
 			<div class="inputs">
-				<textarea class=" nice ta" form="footer_form" rows="4" cols="72" type="text" id="about" name="about" value="{$about}"/>Searchin for my lost shaker of salt.</textarea>
+				<textarea class=" nice ta" form="footer_form" rows="4" cols="72" type="text" id="about" name="about" value="{$about}" placeholder="Searchin for my lost shaker of salt." /></textarea>
 			</div> <br>
 		</div>
 	</fieldset>
