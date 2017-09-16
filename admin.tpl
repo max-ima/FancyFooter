@@ -108,7 +108,7 @@
 				<input class="nice" size="70" type="text" id="google" name="google" value="{$google}" />
 			</div> <br>
 		</div>
-		<i>Full url to your profile</i><br></br>
+		<i>Full url to your social media profiles</i><br></br>
 	</fieldset>
 
 
@@ -183,7 +183,7 @@
 				<label for="about">{'About:'|@translate}</label>
 			</div>
 			<div class="inputs">
-				<textarea class=" nice ta" form="footer_form" rows="4" cols="72" type="text" id="about" name="about" value="{$about}" placeholder="Searchin for my lost shaker of salt." /></textarea>
+				<textarea class="nice ta" form="footer_form" rows="4" cols="72" type="text" id="about" name="about" placeholder="Searchin for my lost shaker of salt.">{$about}</textarea>
 			</div> <br>
 		</div>
 	</fieldset>
