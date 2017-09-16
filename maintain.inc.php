@@ -1,14 +1,14 @@
 <?php
+
 defined('PHPWG_ROOT_PATH') or die('Hacking attempt!');
 
-include_once('class.ldap.php');
 
 /**
  * This class is used to expose maintenance methods to the plugins manager
  * It must extends PluginMaintain and be named "PLUGINID_maintain"
  * where PLUGINID is the directory name of your plugin
  */
-class Ldap_Login_maintain extends PluginMaintain
+class Fancy_Footer_maintain extends PluginMaintain
 {
   /*
    * My pattern uses a single installation method, which handles both installation
@@ -33,15 +33,7 @@ class Ldap_Login_maintain extends PluginMaintain
    */
   function install($plugin_version, &$errors=array())
   {
-
     global $conf;
-
-    /**
-     * Just initialize the class
-     * The constructor takes care of
-     * all the rest.
-     */
-    $ldap = new Ldap();
 
     $this -> installed = true;
   }
@@ -62,10 +54,12 @@ class Ldap_Login_maintain extends PluginMaintain
   
   function deactivate()
   {
+    // Do nothing
   }
 
   function uninstall()
   {
+    // Do nothing
   }
 
 }
