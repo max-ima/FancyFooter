@@ -120,7 +120,7 @@
 <div class='container footer_block' id='container'>
 	<div class="row">
 		<div class="col-sm-12 col-sm-4 col-md-4 hidden-xs">
-			<table class="logo" width="100%" height="100%" style="border:1px solid red;">
+			<table class="logo" width="100%" height="100%">
 				<tr><td align="center" valign="center">
 					<h4 align="center">{$business}</h4>
 					<img src="{$logo}"/>
