@@ -1,2 +1,9 @@
 # FancyFooter
-I am working on developing a footer plugin for Piwigo. This is partly as a fun way to learn more about Piwigo and partly as a necessity. The goal is to create a plugin that lets you place a logo, business address, social media contacts and maybe a few other things into a nice cusomizable box below the galleries.
+I am decided to develop a footer plugin for Piwigo, partly for fun and partly because a nice footer would greatly enhance a work project.
+
+The plugin currently supports the following:
+A custom logo. FYI works best if its somewhat squarish.
+Social media, including Facebook, Twitter, Instagram, Google + and YouTube.
+Company info, including name, address, telephone, business hours, and a statement about the company.
+
+In the future it would be nice to have some color changing ability in the plugin admin section.
