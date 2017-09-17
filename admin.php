@@ -30,7 +30,8 @@ $template -> assign(
 
 
 /*
- * Retrieve footer configuration variable
+ * Retrieve footer configuration variable.
+ * Remove slashes from earlier data escaping.
  */
 $data = unserialize(conf_get_param(FANCY_FOOTER_ID));
 
@@ -53,11 +54,12 @@ $template -> assign_var_from_handle('ADMIN_CONTENT', 'plugin_admin_content');
 
 
 /*
- * Update the footer parameters
+ * Update the footer parameters.
+ * Be sure to escape the serialized string.
  */
 if(isset($_POST['save'])) {
 
-	conf_update_param(FANCY_FOOTER_ID, serialize($_POST));
+	conf_update_param(FANCY_FOOTER_ID, pwg_db_real_escape_string(serialize($_POST)));
 
 }
 
