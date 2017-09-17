@@ -41,8 +41,7 @@ $data = unserialize(conf_get_param(FANCY_FOOTER_ID));
  * Assign these to the template
  */
 $template -> assign($data);
-// var_dump($data);
-// die();
+
 
 
 
@@ -53,6 +52,9 @@ $template -> assign_var_from_handle('ADMIN_CONTENT', 'plugin_admin_content');
 
 
 
+/*
+ * Update the footer parameters
+ */
 if(isset($_POST['save'])) {
 
 	conf_update_param(FANCY_FOOTER_ID, serialize($_POST));

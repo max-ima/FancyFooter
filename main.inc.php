@@ -18,19 +18,13 @@ define('FANCY_FOOTER_ADMIN',   get_root_url() . 'admin.php?page=plugin-' . FANCY
 define('FANCY_FOOTER_VERSION', '1.3.1');
 
 
+
 // +-----------------------------------------------------------------------+
 // | Event handlers                                                        |
 // +-----------------------------------------------------------------------+
-
-// add_event_handler('init', 'ld_init');
-
-// add_event_handler('try_log_user','login', 0, 4);
-
+add_event_handler('loc_end_page_tail', 'insert_fancy_footer');
 add_event_handler('get_admin_plugin_menu_links', 'fancy_footer_admin_menu');
 
-// +-----------------------------------------------------------------------+
-// | Admin menu loading                                                    |
-// +-----------------------------------------------------------------------+
 
 
 
@@ -62,4 +56,46 @@ function fancy_footer_admin_menu( $menu ) {
 
 
 
+/*
+ * Catch the page end and insert our footer template
+ */
+function insert_fancy_footer( ) {
+
+	if(script_basename() != 'admin') {
+		/*
+		 * Globals
+		 */
+		global $template, $page;
+
+
+
+		/*
+		 * Retrieve footer configuration variable
+		 */
+		$data = unserialize(conf_get_param(FANCY_FOOTER_ID));
+
+
+
+		/*
+		 * Assign these to the template
+		 */
+		$template -> assign($data);
+
+
+
+		/*
+		 * Specify the footer template file
+		 */
+		$template -> set_filename('FOOTER', realpath(FANCY_FOOTER_PATH . 'footer.tpl'));
+
+
+
+		/*
+		 * Parse template file and append to main template
+		 */
+		$template -> append('footer_elements', $template -> parse('FOOTER', false));
+
+		// var_dump($template);
+	}
+}
 ?>

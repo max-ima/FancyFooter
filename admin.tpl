@@ -108,6 +108,18 @@
 				<input class="nice" size="70" type="text" id="google" name="google" value="{$google}" />
 			</div> <br>
 		</div>
+
+
+
+		<!-- Google + -->
+		<div class="parent">
+			<div class="labels">
+				<label for="youtube">{'YouTube:'|@translate}</label>
+			</div>
+			<div class="inputs">
+				<input class="nice" size="70" type="text" id="youtube" name="youtube" value="{$youtube}" />
+			</div> <br>
+		</div>
 		<i>Full url to your social media profiles</i><br></br>
 	</fieldset>
 
@@ -144,6 +156,18 @@
 		<!-- Company City/state -->
 		<div class="parent">
 			<div class="labels">
+				<label for="citystatezip">{'Telephone:'|@translate}</label>
+			</div>
+			<div class="inputs">
+				<input class="nice" size="70" type="tel" id="phone" name="phone" value="{$phone}" placeholder="123.456.7890" />
+			</div> <br>
+		</div>
+
+
+
+		<!-- Company Phone -->
+		<div class="parent">
+			<div class="labels">
 				<label for="citystatezip">{'City, State, Zip:'|@translate}</label>
 			</div>
 			<div class="inputs">
@@ -156,22 +180,10 @@
 		<!-- Company Business Hours -->
 		<div class="parent">
 			<div class="labels">
-				<label for="open_hours">{'Open:'|@translate}</label>
+				<label for="open_hours">{'Business Hours:'|@translate}</label>
 			</div>
 			<div class="inputs">
-				<input class="nice" size="70" type="time" id="open_hours" name="open_hours" value="{$open_hours}" />
-			</div> <br>
-		</div>
-
-
-
-		<!-- Company Business Hours -->
-		<div class="parent">
-			<div class="labels">
-				<label for="close_hours">{'Close:'|@translate}</label>
-			</div>
-			<div class="inputs">
-				<input class="nice" size="70" type="time" id="close_hours" name="close_hours" value="{$close_hours}" />
+				<input class="nice" size="70" type="text" id="open_hours" name="open_hours" value="{$open_hours}" />
 			</div> <br>
 		</div>
 
