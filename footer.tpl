@@ -140,14 +140,14 @@
 		<div class="col-sm-12 col-sm-4 col-md-4 hidden-xs">
 			<div align="center" class="row">
 				<div class="col-xs-12 logo">
-					<h3>{$business}</h3>
+					<h4 align="center">{$business}</h4>
 					<img src="{$logo}"/>
 				</div>
 			</div>
 		</div>
 
 		<div align="left" class="col-xs-12 col-sm-4 col-md-4 hide-on-tiny">
-			<h4>Contact BAE</h4>
+			<h4 align="center">Contact BAE</h4>
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="row">
@@ -206,7 +206,7 @@
 		<div class="col-xs-12 col-sm-4 col-md-4">
 			<div class="row">
 				<div class="col-xs-12">
-					<h4>About OSU BAE</h4>
+					<h4 align="center">About OSU BAE</h4>
 					<p id="about-me" align="left">{$about}</p>
 				</div>
 			</div>
