@@ -153,18 +153,6 @@
 
 
 
-		<!-- Company City/state -->
-		<div class="parent">
-			<div class="labels">
-				<label for="citystatezip">{'Telephone:'|@translate}</label>
-			</div>
-			<div class="inputs">
-				<input class="nice" size="70" type="tel" id="phone" name="phone" value="{$phone}" placeholder="123.456.7890" />
-			</div> <br>
-		</div>
-
-
-
 		<!-- Company Phone -->
 		<div class="parent">
 			<div class="labels">
@@ -172,6 +160,18 @@
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="citystatezip" name="citystatezip" value="{$citystatezip}" placeholder="Margaritaville, VI, 79072" />
+			</div> <br>
+		</div>
+
+
+
+		<!-- Company City/state -->
+		<div class="parent">
+			<div class="labels">
+				<label for="citystatezip">{'Telephone:'|@translate}</label>
+			</div>
+			<div class="inputs">
+				<input class="nice" size="70" type="tel" id="phone" name="phone" value="{$phone}" placeholder="123.456.7890" />
 			</div> <br>
 		</div>
 
