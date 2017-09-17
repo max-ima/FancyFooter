@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: FancyFooter
+Plugin Name: Fancy Footer
 Version: 1.0
 Description: Enables a fancy footer below photo gallery
 Author: cccraig
