@@ -34,4 +34,6 @@ $lang['Address:'] = 'Address:';
 $lang['City, State, Zip:'] = 'City, State, Zip:';
 $lang['Business Hours:'] = 'Business Hours:';
 $lang['About:'] = 'About:';
+$lang['About'] = 'About';
+$lang['Contact'] = 'Contact';
 $lang['Save'] = 'Save';
