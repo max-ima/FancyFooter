@@ -20,35 +20,17 @@
 	line-height: 200%;
 }
 
-.fa-facebook {
-	color: #3b5998;
-}
-
-.fa-instagram {
-	color: #e4405f;
-}
-
-.fa-twitter {
-	color: #00aced;
-}
-
-.fa-youtube {
-	color: #dd4b39;
-}
-
-.fa-google-plus {
-	color: #dd4b39;
-}
+.fa-facebook {color: #3b5998;}
+.fa-instagram {color: #e4405f;}
+.fa-twitter {color: #00aced;}
+.fa-youtube {color: #dd4b39;}
+.fa-google-plus {color: #dd4b39;}
+#about-me {text-indent: 30px;}
 
 .footer_block {
 	background: #cccccc;
 	padding-top: 25px;
-	padding-bottom: 25px;
 	border-radius: 10px;
-}
-
-#about-me {
-	text-indent: 30px;
 }
 
 .logo img {
@@ -138,16 +120,16 @@
 <div class='container footer_block' id='container'>
 	<div class="row">
 		<div class="col-sm-12 col-sm-4 col-md-4 hidden-xs">
-			<div align="center" class="row">
-				<div class="col-xs-12 logo">
+			<table class="logo" width="100%" height="100%" style="border:1px solid red;">
+				<tr><td align="center" valign="center">
 					<h4 align="center">{$business}</h4>
 					<img src="{$logo}"/>
-				</div>
-			</div>
+				</td></tr>
+			</table>
 		</div>
 
 		<div align="left" class="col-xs-12 col-sm-4 col-md-4 hide-on-tiny">
-			<h4 align="center">Contact BAE</h4>
+			<h4 align="center">{'Contact'|@translate}</h4>
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="row">
@@ -206,7 +188,7 @@
 		<div class="col-xs-12 col-sm-4 col-md-4">
 			<div class="row">
 				<div class="col-xs-12">
-					<h4 align="center">About OSU BAE</h4>
+					<h4 align="center">{'About'|@translate}</h4>
 					<p id="about-me" align="left">{$about}</p>
 				</div>
 			</div>
