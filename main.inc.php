@@ -3,6 +3,7 @@
 Plugin Name: Fancy Footer
 Version: 1.0
 Description: Enables a fancy footer below photo gallery
+Plugin URI: http://piwigo.org/ext/extension_view.php?eid=862
 Author: cccraig
 */
 
