@@ -25,6 +25,7 @@ define('FANCY_FOOTER_VERSION', '1.3.1');
 // +-----------------------------------------------------------------------+
 add_event_handler('loc_end_page_tail', 'insert_fancy_footer');
 add_event_handler('get_admin_plugin_menu_links', 'fancy_footer_admin_menu');
+add_event_handler('init', 'fancy_footer_lang_init');
 
 
 
@@ -35,9 +36,12 @@ add_event_handler('get_admin_plugin_menu_links', 'fancy_footer_admin_menu');
 // | functions                                                             |
 // +-----------------------------------------------------------------------+
 
-// function ld_init(){
-// 	load_language('plugin.lang', LDAP_LOGIN_PATH);
-// }
+/*
+ * Loads translations
+ */
+function fancy_footer_lang_init(){
+	load_language('plugin.lang', FANCY_FOOTER_PATH);
+}
 
 
 /*
