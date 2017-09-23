@@ -21,19 +21,19 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Fancy Footer'] = 'Fancy Footer';
-$lang['Logo Configuration'] = ' Konfigurmasi Logo';
-$lang['Logo Image:'] = 'Gambar Logo:';
-$lang['Social Media'] = 'Media Sosial';
+$lang['Logo Configuration'] = '商标设定';
+$lang['Logo Image:'] = '商标图案:';
+$lang['Social Media'] = '社交网络';
 $lang['Facebook:'] = 'Facebook:';
 $lang['Instagram:'] = 'Instagram:';
 $lang['Google +:'] = 'Google +:';
 $lang['YouTube:'] = 'YouTube:';
-$lang['Company Address'] = 'Alamat Perusahaan';
-$lang['Company Name:'] = 'Nama Perusahaan:';
-$lang['Address:'] = 'Alamat:';
-$lang['City, State, Zip:'] = 'Kota, Provinsi, Kode Pos:';
-$lang['Business Hours:'] = 'Jam Kerja:';
+$lang['Company Address'] = '公司地址';
+$lang['Company Name:'] = '公司名称:';
+$lang['Address:'] = '地址:';
+$lang['City, State, Zip:'] = '市，州/省，邮编:';
+$lang['Business Hours:'] = '营业时间:';
 $lang['About:'] = 'Tentang kami:';
 $lang['About'] = 'Tentang kami';
-$lang['Contact'] = 'Kontak';
-$lang['Save'] = 'Simpan';
+$lang['Contact'] = '联系方式';
+$lang['Save'] = '保存';
