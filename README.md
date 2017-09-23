@@ -1,12 +1,12 @@
 # FancyFooter
 I decided to develop a footer plugin for Piwigo, partly for fun and partly because a nice footer would greatly enhance a current work project.
 
-The plugin currently supports the following:
+## Features
 A custom logo. FYI works best if it's somewhat squarish.
 Social media, including Facebook, Twitter, Instagram, Google + and YouTube.
 Company info, including name, address, telephone, business hours, and a statement about the company.
 
-Languages:
+## Languages
 Chinese - Bin Zhi
 Indonesian - Nyoman Sulastri
 
