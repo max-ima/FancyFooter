@@ -33,7 +33,7 @@
 
 <!-- Show the title of the plugin -->
 <div class="titlePage">
-  <h2>{'Fancy Footer'|@translate}</h2>
+  <h2>{'Fancy Footer'|translate}</h2>
 </div>
  
 
@@ -43,11 +43,11 @@
 
 	<!-- Logo for footer -->
 	<fieldset class="mainConf">
-		<legend>{'Logo Configuration'|@translate}</legend>
+		<legend>{'Logo Configuration'|translate}</legend>
 
 		<div align="left" class="parent">
 			<div class="labels">
-				<label for="logo">{'Logo Image:'|@translate}</label>
+				<label for="logo">{'Logo Image:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="logo" name="logo" value="{$logo}" placeholder="File location relative to piwigo install" />
@@ -59,12 +59,12 @@
 
 	<!-- Social Media -->
 	<fieldset class="mainConf">
-		<legend>{'Social Media'|@translate}</legend>
+		<legend>{'Social Media'|translate}</legend>
 
 		<!-- Twitter -->
 		<div class="parent">
 			<div class="labels">
-				<label for="twitter">{'Twitter:'|@translate}</label>
+				<label for="twitter">{'Twitter:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="twitter" name="twitter" value="{$twitter}" />
@@ -76,7 +76,7 @@
 		<!-- Facebook -->
 		<div class="parent">
 			<div class="labels">
-				<label for="facebook">{'Facebook:'|@translate}</label>
+				<label for="facebook">{'Facebook:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="facebook" name="facebook" value="{$facebook}" />
@@ -88,7 +88,7 @@
 		<!-- Instagram -->
 		<div class="parent">
 			<div class="labels">
-				<label for="instagram">{'Instagram:'|@translate}</label>
+				<label for="instagram">{'Instagram:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="instagram" name="instagram" value="{$instagram}" />
@@ -100,7 +100,7 @@
 		<!-- Google + -->
 		<div class="parent">
 			<div class="labels">
-				<label for="google">{'Google +:'|@translate}</label>
+				<label for="google">{'Google +:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="google" name="google" value="{$google}" />
@@ -112,25 +112,25 @@
 		<!-- Google + -->
 		<div class="parent">
 			<div class="labels">
-				<label for="youtube">{'YouTube:'|@translate}</label>
+				<label for="youtube">{'YouTube:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="youtube" name="youtube" value="{$youtube}" />
 			</div> <br>
 		</div>
-		<i>Full url to your social media profiles</i><br></br>
+		<i>{'Full url to your social media profiles'|translate}</i><br></br>
 	</fieldset>
 
 
 
 	<!-- Company Address -->
 	<fieldset class="mainConf">
-		<legend>{'Company Address'|@translate}</legend>
+		<legend>{'Company Address'|translate}</legend>
 
 		<!-- Company Name -->
 		<div class="parent">
 			<div class="labels">
-				<label for="business">{'Company Name:'|@translate}</label>
+				<label for="business">{'Company Name:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="business" name="business" value="{$business}" placeholder="Jimmy Buffet Cruises" />
@@ -142,7 +142,7 @@
 		<!-- Company Address -->
 		<div class="parent">
 			<div class="labels">
-				<label for="address">{'Address:'|@translate}</label>
+				<label for="address">{'Address:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="address" name="address" value="{$address}" placeholder="1712 W. Tequila St." />
@@ -154,7 +154,7 @@
 		<!-- Company Phone -->
 		<div class="parent">
 			<div class="labels">
-				<label for="citystatezip">{'City, State, Zip:'|@translate}</label>
+				<label for="citystatezip">{'City, State, Zip:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="citystatezip" name="citystatezip" value="{$citystatezip}" placeholder="Margaritaville, VI, 79072" />
@@ -166,7 +166,7 @@
 		<!-- Company City/state -->
 		<div class="parent">
 			<div class="labels">
-				<label for="citystatezip">{'Telephone:'|@translate}</label>
+				<label for="citystatezip">{'Telephone:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="tel" id="phone" name="phone" value="{$phone}" placeholder="123.456.7890" />
@@ -178,7 +178,7 @@
 		<!-- Company Business Hours -->
 		<div class="parent">
 			<div class="labels">
-				<label for="open_hours">{'Business Hours:'|@translate}</label>
+				<label for="open_hours">{'Business Hours:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<input class="nice" size="70" type="text" id="open_hours" name="open_hours" value="{$open_hours}" />
@@ -190,7 +190,7 @@
 		<!-- Company About -->
 		<div class="parent">
 			<div class="labels">
-				<label for="about">{'About:'|@translate}</label>
+				<label for="about">{'About:'|translate}</label>
 			</div>
 			<div class="inputs">
 				<textarea class="nice ta" form="footer_form" rows="4" cols="72" type="text" id="about" name="about" placeholder="Searchin for my lost shaker of salt.">{$about}</textarea>
