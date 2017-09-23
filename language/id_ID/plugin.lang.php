@@ -21,7 +21,7 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Fancy Footer'] = 'Fancy Footer';
-$lang['Logo Configuration'] = 'Konfigurmasi Logo';
+$lang['Logo Configuration'] = 'Konfigurasi Logo';
 $lang['Logo Image:'] = 'Gambar Logo:';
 $lang['Social Media'] = 'Media Sosial';
 $lang['Facebook:'] = 'Facebook:';
@@ -37,3 +37,5 @@ $lang['About:'] = 'Tentang kami:';
 $lang['About'] = 'Tentang kami';
 $lang['Contact'] = 'Kontak';
 $lang['Save'] = 'Simpan';
+$lang['Full url to your social media profiles'] = 'url lengkap ke profil sosial media'
+$lang['Telephone'] = 'Telefon';
