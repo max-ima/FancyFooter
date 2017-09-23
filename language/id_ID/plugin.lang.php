@@ -21,7 +21,7 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['Fancy Footer'] = 'Fancy Footer';
-$lang['Logo Configuration'] = ' Konfigurmasi Logo';
+$lang['Logo Configuration'] = 'Konfigurmasi Logo';
 $lang['Logo Image:'] = 'Gambar Logo:';
 $lang['Social Media'] = 'Media Sosial';
 $lang['Facebook:'] = 'Facebook:';
