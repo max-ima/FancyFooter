@@ -37,3 +37,4 @@ $lang['About:'] = '关于我们:';
 $lang['About'] = '关于我们';
 $lang['Contact'] = '联系方式';
 $lang['Save'] = '保存';
+$lang['Full url to your social media profiles'] = '完整网址到您的社交媒体资料';
