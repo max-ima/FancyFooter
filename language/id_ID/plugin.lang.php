@@ -38,4 +38,4 @@ $lang['About'] = 'Tentang kami';
 $lang['Contact'] = 'Kontak';
 $lang['Save'] = 'Simpan';
 $lang['Full url to your social media profiles'] = 'url lengkap ke profil sosial media'
-$lang['Telephone'] = 'Telefon';
+$lang['Telephone:'] = 'Telefon';
