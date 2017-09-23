@@ -1,5 +1,4 @@
-{literal}
-<style>
+{html_style}
 .nice{
     display: inline-block;
     background: white;
@@ -30,8 +29,7 @@
 	border-radius: 10px 10px 0px 10px;
 }
 
-</style>
-{/literal}
+{/html_style}
 
 <!-- Show the title of the plugin -->
 <div class="titlePage">
