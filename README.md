@@ -8,12 +8,19 @@ Company info, including name, address, telephone, business hours, and a statemen
 
 ### Languages
 Chinese - Bin Zhi
+
 Indonesian - Nyoman Sulastri
+
 French - Friends of Nyoman
+
 Japanese - Friends of Nyoman
+
 Thai - Friends of Nyoman
+
 Khmer - Friends of Nyoman
+
 Svenska - Friends of Nyoman
+
 Portuguese - Friends of Nyoman
 
 ### Wishfull thinking
