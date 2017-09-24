@@ -20,7 +20,7 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['Fancy Footer'] = 'Fancy Footer';
+$lang['Fancy Footer'] = 'Fancy Footer'; 
 $lang['Logo Configuration'] = 'កំណែស្លាកសញ្ញា';
 $lang['Logo Image:'] = 'រូបស្លាកសញ្ញា:';
 $lang['Social Media'] = 'បណ្តាញសង្គម';
