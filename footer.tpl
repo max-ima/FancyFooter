@@ -1,4 +1,5 @@
-{html_style}
+{literal}
+<style>
 
 .big {
 	font-size: 20px;
@@ -112,9 +113,8 @@
 		font-size: 20px;
 	}
 }
-
-
-{/html_style}
+</style>
+{/literal}
 
 <div class='container footer_block' id='container'>
 	<div class="row">
