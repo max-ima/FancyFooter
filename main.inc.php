@@ -105,8 +105,6 @@ function insert_fancy_footer( ) {
 		 * Parse template file and append to main template
 		 */
 		$template -> append('footer_elements', $template -> parse('FOOTER', false));
-
-		// var_dump($template);
 	}
 }
 
@@ -141,7 +139,7 @@ function fancy_footer_styles() {
 		} else {
 
 			$path = 'plugins/FancyFooter/css/clear.css';
-			
+
 		}
 
   
