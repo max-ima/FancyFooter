@@ -131,8 +131,18 @@ function fancy_footer_styles() {
 		$query = 'SELECT theme FROM ' . USER_INFOS_TABLE . ';';
 
 		$theme = pwg_db_fetch_assoc(pwg_query($query));
+		$theme = $theme['theme'];
 
-		$theme = (file_exists('plugins/FancyFooter/css/'. $theme['theme'] .'.css')) ? $theme['theme'] : 'default';
+		// We have bootstrap theme of some sort
+		if (strpos($theme, "bootstrap") !== False) {
+
+			$path = 'plugins/FancyFooter/css/default.css';
+
+		} else {
+
+			$path = 'plugins/FancyFooter/css/clear.css';
+			
+		}
 
   
 
@@ -142,8 +152,8 @@ function fancy_footer_styles() {
 		 */
 		$template -> func_combine_css(
 			array(
-				'id'=>'fancy_footer',
-				'path'=>'plugins/FancyFooter/css/'. $theme .'.css'
+				'id' => 'fancy_footer',
+				'path' => $path
 			)
 		);
 	}
