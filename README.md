@@ -23,5 +23,7 @@ Svenska - Friends of Nyoman
 
 Portuguese - Friends of Nyoman
 
+Deutsch - Friends of Nyoman
+
 ### Wishfull thinking
 In the future it would be nice to have some color changing ability in the plugin admin section. I also developed the plugin using the Boostrap Darkroom theme with the Readable Bootswatch options. Not sure how it will fair with other themes.
