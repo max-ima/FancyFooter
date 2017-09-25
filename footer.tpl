@@ -31,38 +31,40 @@
 				</div>
 			</div>
 
-			<div id='social_media' class="row">
+			<div class="row">
 				<div class="col-xs-1"><i class="fa fa-share-alt"></i>&nbsp;&nbsp;</div>
 
-				{if (!empty($twitter))}
-				<div align="left" class="col-xs-1">
-					<a name="twitter" href="{$twitter}" target="_blank"><i class="fa fa-twitter"></i></a>
-				</div>
-				{/if}
+				<div class='sm'>
+					{if (!empty($twitter))}
+					<div align="left" class="col-xs-1">
+						<a name="twitter" href="{$twitter}" target="_blank"><i class="fa fa-twitter"></i></a>
+					</div>
+					{/if}
 
-				{if (!empty($facebook))}
-				<div align="center" class="col-xs-1">
-					<a name="facebook" href="{$facebook}" target="_blank"><i class="fa fa-facebook"></i></a>
-				</div>
-				{/if}
+					{if (!empty($facebook))}
+					<div align="center" class="col-xs-1">
+						<a name="facebook" href="{$facebook}" target="_blank"><i class="fa fa-facebook"></i></a>
+					</div>
+					{/if}
 
-				{if (!empty($instagram))}
-				<div align="center" class="col-xs-1">
-					<a name="instagram" href="{$instagram}" target="_blank"><i class="fa fa-instagram"></i></a>
-				</div>
-				{/if}
+					{if (!empty($instagram))}
+					<div align="center" class="col-xs-1">
+						<a name="instagram" href="{$instagram}" target="_blank"><i class="fa fa-instagram"></i></a>
+					</div>
+					{/if}
 
-				{if (!empty($youtube))}
-				<div align="center" class="col-xs-1">
-					<a name="youtube" href="{$youtube}" target="_blank"><i class="fa fa-youtube"></i></a>
-				</div>
-				{/if}
+					{if (!empty($youtube))}
+					<div align="center" class="col-xs-1">
+						<a name="youtube" href="{$youtube}" target="_blank"><i class="fa fa-youtube"></i></a>
+					</div>
+					{/if}
 
-				{if (!empty($google))}
-				<div align="center" class="col-xs-1">
-					<a name="google-plus" href="{$google}" target="_blank"><i class="fa fa-google-plus"></i></a>
+					{if (!empty($google))}
+					<div align="center" class="col-xs-1">
+						<a name="google-plus" href="{$google}" target="_blank"><i class="fa fa-google-plus"></i></a>
+					</div>
+					{/if}
 				</div>
-				{/if}
 			</div>
 		</div>
 
