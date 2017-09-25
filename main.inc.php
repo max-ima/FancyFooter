@@ -16,7 +16,7 @@ if (!defined('PHPWG_ROOT_PATH')) die('Hacking attempt!');
 define('FANCY_FOOTER_ID',      basename(dirname(__FILE__)));
 define('FANCY_FOOTER_PATH' ,   PHPWG_PLUGINS_PATH . FANCY_FOOTER_ID . '/');
 define('FANCY_FOOTER_ADMIN',   get_root_url() . 'admin.php?page=plugin-' . FANCY_FOOTER_ID);
-define('FANCY_FOOTER_VERSION', '1.3.1');
+define('FANCY_FOOTER_VERSION', '1.0.3');
 
 
 
@@ -26,8 +26,6 @@ define('FANCY_FOOTER_VERSION', '1.3.1');
 add_event_handler('loc_end_page_tail', 'insert_fancy_footer');
 add_event_handler('get_admin_plugin_menu_links', 'fancy_footer_admin_menu');
 add_event_handler('init', 'fancy_footer_lang_init');
-
-
 
 
 
