@@ -1,6 +1,6 @@
 <div class='container footer_block' id='container'>
 	<div class="row">
-		<div class="col-sm-12 col-sm-4 col-md-4 hidden-xs">
+		<div id="logo_block" class="col-sm-12 col-sm-4 col-md-4 hidden-xs">
 			<table class="logo" width="100%" height="100%">
 				<tr><td align="center" valign="center">
 					<h4 align="center">{$business}</h4>
@@ -9,7 +9,7 @@
 			</table>
 		</div>
 
-		<div align="left" class="col-xs-12 col-sm-4 col-md-4 hide-on-tiny">
+		<div id="contact_block" align="left" class="col-xs-12 col-sm-4 col-md-4 hide-on-tiny">
 			<h4 align="center">{'Contact'|translate}</h4>
 			<div class="row">
 				<div class="col-xs-12">
@@ -66,7 +66,7 @@
 			</div>
 		</div>
 
-		<div class="col-xs-12 col-sm-4 col-md-4">
+		<div id="about_block" class="col-xs-12 col-sm-4 col-md-4">
 			<div class="row">
 				<div class="col-xs-12">
 					<h4 align="center">{'About'|translate}</h4>
