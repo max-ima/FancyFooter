@@ -31,7 +31,7 @@
 				</div>
 			</div>
 
-			<div class="row">
+			<div id='social_media' class="row">
 				<div class="col-xs-1"><i class="fa fa-share-alt"></i>&nbsp;&nbsp;</div>
 
 				{if (!empty($twitter))}
