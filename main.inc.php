@@ -131,10 +131,14 @@ function fancy_footer_styles() {
 		$theme = pwg_db_fetch_assoc(pwg_query($query));
 		$theme = $theme['theme'];
 
-		// We have bootstrap theme of some sort
-		if (strpos($theme, "bootstrap") !== False) {
+		// We have bootstrap darkroom theme
+		if ($theme == "bootstrap_darkroom") {
 
 			$path = 'plugins/FancyFooter/css/default.css';
+
+		} elseif ($theme == 'boostrap') {
+
+			$path = 'plugins/FancyFooter/css/boots.css';
 
 		} else {
 
