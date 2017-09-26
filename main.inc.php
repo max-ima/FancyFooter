@@ -136,7 +136,7 @@ function fancy_footer_styles() {
 
 			$path = 'plugins/FancyFooter/css/default.css';
 
-		} elseif ($theme == 'boostrap') {
+		} elseif ($theme == 'bootstrapdefault') {
 
 			$path = 'plugins/FancyFooter/css/boots.css';
 
