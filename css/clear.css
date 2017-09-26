@@ -93,6 +93,9 @@
 	max-width: 250px;
 }
 
+.footer_block {
+	margin-top: 50px;
+}
 
 #contact_block {
 	position: absolute;
