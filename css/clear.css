@@ -122,10 +122,6 @@ h4 {
 }
 
 @media (max-width: 425px) {
-	#logo_block {
-		display: none;
-	}
-
 	#about_block {
 		width: 40%;
 	}
