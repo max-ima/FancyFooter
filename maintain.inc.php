@@ -10,7 +10,7 @@ defined('PHPWG_ROOT_PATH') or die('Hacking attempt!');
  */
 class FancyFooter_maintain extends PluginMaintain
 {
-  
+
   /**
    * plugin installation
    *
@@ -25,7 +25,7 @@ class FancyFooter_maintain extends PluginMaintain
     pwg_query($query);
 
   }
-  
+
   function deactivate()
   {
     // Do nothing
