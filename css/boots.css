@@ -11,13 +11,14 @@
   font-weight: normal;
   font-style: normal;
 }
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 .fa-clock-o:before {
   content: "\f017";
@@ -53,9 +54,12 @@
   content: "\f0d5";
 }
 
-.big {
-	font-size: 20px;
-	line-height: 200%;
+.sm {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+	display: inline-block;
+	margin: 0 -5% -5% 0;
 }
 
 .fa-building,
@@ -77,26 +81,39 @@
 .fa-twitter {color: #00aced;}
 .fa-youtube {color: #dd4b39;}
 .fa-google-plus {color: #dd4b39;}
-#about-me {text-indent: 30px;}
+
+.about {
+  padding-right: 20px;
+  text-indent: 30px;
+}
 
 .footer_block {
 	background: #cccccc;
-	padding-top: 25px;
 	border-radius: 10px;
+	padding-top: 25px;
 }
 
 .logo img {
+  max-width: 250px;
 	width: 90%;
-	max-width: 250px;
 }
 
 
-@media (min-width: 768px) {
-	.big {
-		font-size: 16px;
-		line-height: 200%;
-	}
+.hidden-small {
+  display: none;
+  visibility: hidden;
+}
 
+.contact span,
+.about {
+  font-size: 15px;
+}
+
+.contact {
+  padding-left: 50px;
+}
+
+@media (min-width: 768px) {
 	.fa-building,
 	.fa-google-plus,
 	.fa-share-alt,
@@ -111,17 +128,13 @@
 		line-height: 200%;
 	}
 
-	#about-me {
-		font-size: 13px;
-	}
+  .hidden-small {
+    display: inline-block;
+    visibility: visible;
+  }
 }
 
 @media (min-width: 1024px) {
-	.big {
-		font-size: 20px;
-		line-height: 200%;
-	}
-
 	.fa-building,
 	.fa-google-plus,
 	.fa-share-alt,
@@ -136,17 +149,13 @@
 		line-height: 200%;
 	}
 
-	#about-me {
+  .contact span,
+	.about {
 		font-size: 18px;
 	}
 }
 
 @media (min-width: 1025px) {
-	.big {
-		font-size: 25px;
-		line-height: 200%;
-	}
-
 	.fa-building,
 	.fa-google-plus,
 	.fa-share-alt,
@@ -161,7 +170,8 @@
 		line-height: 200%;
 	}
 
-	#about-me {
+  .contact span,
+	.about {
 		font-size: 20px;
 	}
 }

@@ -53,17 +53,16 @@
   content: "\f0d5";
 }
 
-
-.sm,
-.sm_parent {
-    -moz-box-sizing:    border-box;
-    -webkit-box-sizing: border-box;
-    box-sizing:        border-box;
+.sm {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+	display: inline-block;
+  padding: 10px 10px 10px 10px;
 }
 
-.sm {
-	display: inline-block;
-	margin: 0 5% 5% 0;
+.sm:first-child {
+  padding-left: 0px;
 }
 
 .fa-building,
@@ -86,7 +85,6 @@
 .fa-youtube {color: #dd4b39;}
 .fa-google-plus {color: #dd4b39;}
 
-
 .logo img {
 	width: 90%;
 	max-width: 250px;
@@ -96,7 +94,7 @@
 	margin-top: 50px;
 }
 
-#contact_block {
+.contact {
 	position: absolute;
 	left:0;
 	right:0;
@@ -109,14 +107,11 @@
 	width: 30%;
 }
 
-#about_block {
+.about {
 	float:right;
-	width: 35%;
-}
-
-#about-me {
 	font-size: 14px;
 	padding-right: 15px;
+	width: 35%;
 }
 
 h4 {
@@ -124,20 +119,17 @@ h4 {
 }
 
 @media (max-width: 425px) {
-	#about_block {
+	.about {
+    height: 300px;
 		width: 40%;
 	}
-	#contact_block {
+	.contact {
 		width: 50%;
-	}
-
-	#about_block {
-		height: 300px;
 	}
 }
 
 @media (min-width: 1441px) {
-	#contact_block {
+	.contact {
 		width: 20%;
 	}
 
@@ -145,7 +137,7 @@ h4 {
 		width: 30%;
 	}
 
-	#about_block {
+	.about {
 		width: 40%;
 	}
 }
