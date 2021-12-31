@@ -37,3 +37,4 @@ $lang['About:'] = 'About:';
 $lang['About'] = 'About';
 $lang['Contact'] = 'Contact';
 $lang['Save'] = 'Save';
+$lang['Full url to your social media profiles'] = 'Full url to your social media profiles';
